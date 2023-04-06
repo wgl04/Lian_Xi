@@ -1,8 +1,8 @@
 public class zuoye2 {
     public static void main(String[] args) {
-        int count = 0,i;
+        int count = 0, i;
         boolean flag;
-        for(i = 101; i<201; i++) {
+        for(i = 101; i < 201; i++) {
             flag = true;
             for (int x = 2; x < i; x++) {
                 if (i % x == 0) {
