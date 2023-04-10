@@ -1,11 +1,13 @@
+import java.util.Scanner;
+
 public class lianxi3 {
-    public static void Prints() {
-        for (int i = 100;i < 1000;i++){
-            int n = i % 100;
-            int m = i / 10 % 10;
-            int a = i / 100;
-            if (i == (n * n * n)+(m * m * m)+(a * a * a)){
-                System.out.println(i +" ");
+    public static void Prints(){
+        for (int i = 100; i < 1000; i++) {
+            int j = i % 10;         //个位
+            int k = i / 10 % 10;    //十位
+            int l = i / 100;        //百位
+            if (i==(j*j*j)+(k*k*k)+(l*l*l)) {
+                System.out.print(i + " ");
             }
         }
     }
@@ -14,3 +16,6 @@ public class lianxi3 {
         Prints();
     }
 }
+        
+
+
