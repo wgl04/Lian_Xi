@@ -6,9 +6,9 @@ public class lianxi2 {
     public static void main(String[] args) throws IOException {
         final double eps =10e-7;
         double a, b, c;
-         a = Double . parseDouble ( new BufferedReader( new InputStreamReader( System . in ) ) . readLine( ) ) ;
-         b =Double . parseDouble ( new BufferedReader( new InputStreamReader( System . in ) ) . readLine( ) );
-         c = Double . parseDouble ( new BufferedReader( new InputStreamReader( System . in ) ) . readLine( ) ) ;
+         a = Double . parseDouble ( new BufferedReader( new InputStreamReader( System.in ) ) . readLine( ) ) ;
+         b = Double . parseDouble ( new BufferedReader( new InputStreamReader( System.in ) ) . readLine( ) );
+         c = Double . parseDouble ( new BufferedReader( new InputStreamReader( System.in ) ) . readLine( ) ) ;
         double d = b * b - 4 * a * c;
         if ( d > 0 ) {
             System.out.println ( "Two roots " ) ;
